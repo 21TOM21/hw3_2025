@@ -104,6 +104,8 @@ nav ul li a:focus {
     margin: 0 auto;
     text-align: center;
     padding: 30px;
+    max-height: none;
+    overflow: visible;
 }
 
 
