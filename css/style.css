@@ -117,7 +117,6 @@ nav ul li a:focus {
     /* Step 10: Write the selector/rule property to style the nav element */
     nav ul {
         text-align: right;
-        padding: 35px 0;
     }
  
     /* Step 11: Write the selector/rule property to update the .container class */
