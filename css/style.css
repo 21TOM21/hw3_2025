@@ -4,7 +4,7 @@
 links in the navigation are in the hover or focus state.*/
 nav ul li a:hover,
 nav ul li a:focus {
-    border: 2px dotted purple;
+    border: 2px dotted purple !important;
 }
 
 /*Write selector/rule property to position the default position for the skip class element*/
@@ -81,6 +81,7 @@ nav ul li a:focus {
     height: auto;
     overflow: visible;
     align-self: stretch;
+    max-height: 675px;
 }
 
 .accounts-image img, 
@@ -91,7 +92,6 @@ nav ul li a:focus {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
     max-height: none;
 }
 
@@ -117,6 +117,7 @@ nav ul li a:focus {
     /* Step 10: Write the selector/rule property to style the nav element */
     nav ul {
         text-align: right;
+        padding: 35px 0;
     }
  
     /* Step 11: Write the selector/rule property to update the .container class */
@@ -185,5 +186,9 @@ nav ul li a:focus {
     .text-block {
         max-height: 235px;
         overflow-y: auto;
+    }
+
+    .accounts-image, .onlinebanking-image, .security-image, .loans-image, .contact-image {
+        max-height: none;
     }
 }
